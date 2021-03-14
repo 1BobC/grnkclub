@@ -1,2 +1,29 @@
 /*Stylesheet for Greenock Mens Speakers*/
-
+body{
+color: #fff;
+font-family: 'Courier New';
+text-align: center;
+}
+#content{
+    display: grid;
+                            /* 33.3% 33.3% 33.3%; */
+                            /* 30% 20% 50%; */
+                            /* 1fr 2fr 1fr; */
+    grid-template-columns: repeat(3, 1fr); 
+    /* grid-auto-rows: minmax(200px, auto); */
+    /* grid-template-rows:  200px 300px 150px 100px; */
+     grid-template-rows: repeat(3, minmax(200(x, auto))); /*not essential since rows are automatically added when there is content */
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+    grid-gap: 10px;    /* or in one command  */
+     max-width: 960px;
+    margin: 0 auto;
+}
+#content div{
+    background: #3bbced;
+    padding: 30px;
+    /* margin: 20px;   but margin is on all four sides */
+}
+#content div:nth-child(even){
+    background: #777;
+}
