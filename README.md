@@ -6,3 +6,6 @@ Add skeletons.
 "Completed #1 intro #2 columns #3 rows #4 grid lines #5 nested"
 "Completed #4 grid lines #5 nested #6 aligning and justifying"
 "Completed #7 create 12 column grid #8 create mosaic #9 grid areas not working correctly will research for latest on grid areas"
+"The answer was to use grid-auto-rows and not grid-template-rows!! tutorial #9 grid areas all fine now"
+"Completed #10 responsive design next look at content for speakers club"
+

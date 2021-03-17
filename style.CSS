@@ -1,5 +1,6 @@
 /*Stylesheet for Greenock Mens Speakers*/
 /* See README for tutorials */
+
 body{
 color: #fff;
 font-family: 'Courier New';
@@ -17,23 +18,47 @@ text-align: center;
     grid-template-columns: repeat(4, 1fr);       
     grid-auto-rows: minmax(100px, auto);
     grid-template-areas:
-    
-    "header header header header"
-    "section section main main"
-    
-    "aside aside main main"
-    "aside aside main main"
-    "nav nav nav nav"
-    "footer footer footer footer"
-    "footer footer footer footer"
-    ;
    
-    
+    "header header header header"
+    "footer footer footer footer"
+    "main main main main"
+    "main main main main"
+    "aside aside nav nav"
+    "section section section section"
+    "section section section section";
     max-width: 960px;
     margin: 0 auto;
     gap: 10px;
     /* position: relative;*/            /*code to help p positions in #7 */
 }
+
+/* also for #10 reponsive design */
+@media screen and (min-width: 760px){
+#content{
+    display: grid;
+    /* grid-template-columns: repeat(6, 1fr); /* *8 grid tutorial */
+    /*grid-auto-rows: minmax(150px, auto);
+    grid-gap: 10px; */
+    /* grid-template-columns: repeat(12, 1fr);*/ /*#7 12 grid lines*/
+    /*grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px; */
+    /* #9 grid areas code */
+    grid-template-columns: repeat(4, 1fr);       
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:   
+    "header header header header"
+    "aside aside main main"
+    "nav nav main main"
+    "section section section section"
+    "section section section section"
+    "footer footer footer footer";    
+    max-width: 960px;
+    margin: 0 auto;
+    gap: 10px;
+    /* position: relative;*/            /*code to help p positions in #7 */
+}
+}
+/* also for #10 reponsive design */
 header{
     grid-area: header;
 }
@@ -83,7 +108,7 @@ footer{
 #content{
     transform: rotateZ(45deg) scale(0.7);
 } */
-/* this content code for #7 #9 */
+/* this content code for #7 #9 #10*/
 #content > *{            
     background: #3bbced;
     padding: 30px;
