@@ -11,5 +11,7 @@ Add skeletons.
 "Quick check of situation Will come back after thoughts on layout"
 "#7 Create 12 column grid and customize content and layout header aside section1 nav main section 2 footer with responsive design Add grid overlay All working!"
 
-Nested grid - mozaic design - rotate
- 
+"Add image and title to header Create nested grid with mozaic design and rotate All working"
+
+
+
