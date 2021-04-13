@@ -1,3 +1,4 @@
+//Old version Javascript page for Greenock Mens Speakers web page
 // let apples= 6;
 // let pears= 9;
 

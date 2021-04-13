@@ -14,7 +14,8 @@ Add skeletons.
 "Add image and title to header Create nested grid with mozaic design and rotate All working"
 "Amend responsive code max 760px Download images to file"
 "Remove unwanted div under header Add zoom images to section 2 and rotate 45 deg"
-" "
+"Set up new html CSS and js files for new front page layout Previous files given 1 as suffix Reset zoom imgs to horiz Code new files for max 670 layout"
+
 
 
 
