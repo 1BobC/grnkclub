@@ -85,9 +85,18 @@ section3{
     grid-column: 1/13;
     opacity: 0.8;
 }
+section3 .e{
+    opacity: 1.0;
+}
 
 nav{
     grid-column: 1/13;
+}
+nav li{
+    display: inline;
+    padding: 10px;
+    background-color: lightblue;
+    grid-auto-rows: auto;
 }
 footer{
     grid-column: 1/13;

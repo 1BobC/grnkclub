@@ -15,6 +15,7 @@ Add skeletons.
 "Amend responsive code max 760px Download images to file"
 "Remove unwanted div under header Add zoom images to section 2 and rotate 45 deg"
 "Set up new html CSS and js files for new front page layout Previous files given 1 as suffix Reset zoom imgs to horiz Code new files for max 670 layout"
+"Plan layout Header Image & Title Section1 Section2 Section3 Nav Footer for max 670 layout"
 
 
 
