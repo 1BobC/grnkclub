@@ -17,6 +17,7 @@ Add skeletons.
 "Set up new html CSS and js files for new front page layout Previous files given 1 as suffix Reset zoom imgs to horiz Code new files for max 670 layout"
 "Plan layout Header Image & Title Section1 Section2 Section3 Nav Footer for max 670 layout"
 "Delete old files index1 sandbox and style1 Use max width screens 479 767 991 1300 from media genesis and layout from html css crash course 8 9 10"
+"New start no grid - sketch the four screens with notes before coding"
 
 
 
