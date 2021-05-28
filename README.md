@@ -18,7 +18,10 @@ Add skeletons.
 "Plan layout Header Image & Title Section1 Section2 Section3 Nav Footer for max 670 layout"
 "Delete old files index1 sandbox and style1 Use max width screens 479 767 991 1300 from media genesis and layout from html css crash course 8 9 10"
 "New start no grid - sketch the four screens with notes before coding"
-
+<!-- const now = new Date();
+console.log(now.toDateString());
+document. -->
+"Complete sketches of four screen widths Complete initial Appearance and postioning - Header - Banner - Meetings - Contacts - Images - Presidents message - Link to ASC - Footer"
 
 
 
