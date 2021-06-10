@@ -23,6 +23,7 @@ console.log(now.toDateString());
 document. -->
 "Complete sketches of four screen widths Complete initial Appearance and postioning  Next format May21 zoom image"
 "Downloaded 12 zoom imgs for amended layout Create president's report Create links and  mouseover for ASC logo positions Move onto responsive design"
+<!--  -->
 
 
 

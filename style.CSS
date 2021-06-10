@@ -13,93 +13,157 @@
     left: 0;    
   }
   header h2{
-    color:  #3737f3;
-    border: 6px solid #3737f3;
+    color:  #145e9b;
+    border: 6px solid #145e9b;
     padding: 6px 12px;
     display: inline-block;
     border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  header img{
-    width: 65px;
-    height: 65px;
-    z-index: 2;
-    top: 20px;
-    right: 45px;
-    position: fixed;
-  }
-  /* header img{
-    width: 65px;
-    height: 65px;
-    z-index: 2;
-    top: 20px;
-    left: 45px;
-    position: fixed;
-    } */
-  .banner #bob{
+  .banner img{
     position: relative;
     width: 100%;
     opacity: 0.8;  
     margin-top: 95px;
     border-radius: 20px;
+    
   }
   .banner .welcome{
     position: absolute;
-    top: 15%;
-    left: 15px;     /* how to centralize?  */
+    top: 16%;
+    left: 10%;     /* how to centralize?  */
     font-size: 1.3em;
     color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .banner .since{
+    position: absolute;
+    top: 75%;
+    left: 50%;     /* how to centralize?  */
+    font-size: 1.3em;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
   }
   div.meeting{
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     position: relative;
   }
   div.meeting1{
     position: absolute;
     background-color: white;
-    color: #3737f3;
-    padding: 10px;    
+    color: #145e9b;
+    /* padding: 10px;     */
     top: 0;
-    left: 5px;
-    width: 35%;
+    left: 15%;
+    width: 30%;
   }
   div.meeting2{
     position: absolute;
     background-color: white;
-    color: #3737f3;
-    padding: 10px;
+    color: #145e9b;
+    /* padding: 10px; */
     top: 0;
-    right: 5px; 
-    width: 35%;
+    right: 15%; 
+    width: 30%;
   }
-  .images{
-    margin-top: 200px;
+.images1{  
+    margin-top: 210px;
     text-align: center;   
     white-space: nowrap; 
+  
+      
   }
-  .images li{
+  .images1 li{
     display: inline-block;
-    width: 25%;
+    max-block-size: 100%;
+    width: 16%;
+  
+    /* margin: 10px 0;     */
   }
-  .images li img{
-    max-width: 100%;
+  .images1 li img{  
     height: 130px;
+    width: 230px;
+    /* padding: 5px; */
+    max-width: 100%;
   }
-  .president{
-    max-width: 900px;
-   
+  .president{ 
+    text-align: left;
+    color: #145e9b;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .president h2{
     text-align: center;
-    color: #3737f3;
+  }
+  .president p{
+    max-width: 70%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+  }
+  .images2{  
+    margin-top: 5px;
+    text-align: center;   
+    white-space: nowrap;  
+    width: 100%;
+  }
+  .images2 li{
+    display: inline-block;
+    width: 16%;
+    /* margin: 10px 0;     */
+  }
+  .images2 li img{  
+    height: 130px;
+    width: 230px;
+    /* padding: 5px; */
+    max-width: 100%;
   }
   .acknowledge img{
-    width: 65px;
-    height: 65px;
-  }
-  footer{
-    background-color: white;
-    color:  #3737f3;
-    padding: 10px;
+    width: 190px;
+    height: 140px;
+    display: inline-block;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-
+    margin-left: 40%;
+    margin-right: auto;
+    padding: 10px;
   }
+  .ASC{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+  }
+  .ASC1{
+    position: absolute;
+    background-color: white;
+    color: #145e9b;
+    padding: 10px;    
+    top: 0;
+    left: 12%;
+    width: 35%;
+  }
+  .ASC2{
+    position: absolute;
+    background-color: white;
+    color: #145e9b;
+    padding: 10px;
+    top: 0;
+    right: 5%; 
+    width: 35%; 
+  }
+    footer{
+    background-color: white;
+    color:  #145e9b;
+    padding: 20px;
+    margin-top: 200px; 
+  }  
+    footer p{
+      text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    }
+
+ 
+
+
 
