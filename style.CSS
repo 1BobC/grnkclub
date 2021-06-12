@@ -5,7 +5,6 @@
   header{
     position: fixed;
     width: 100%;
-    /* padding: 8px; */
     background-color: white;
     text-align: center;
     z-index: 1;
@@ -25,21 +24,28 @@
     width: 100%;
     opacity: 0.8;  
     margin-top: 95px;
-    border-radius: 20px;
-    
+    border-radius: 20px;    
   }
-  .banner .welcome{
+  .welcome1{
     position: absolute;
-    top: 16%;
-    left: 10%;     /* how to centralize?  */
-    font-size: 1.3em;
+    top: 15%;
+    left: 10%;
+    font-size: 1.8em;
     color: ivory;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .banner .since{
+  .welcome2{
     position: absolute;
-    top: 75%;
-    left: 50%;     /* how to centralize?  */
+    top: 27%;
+    left: 10%;
+    font-size: 1.1em;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .since{
+    position: absolute;
+    top: 47%;
+    left: 47%;     /* how to centralize?  */
     font-size: 1.3em;
     color: ivory;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,14 +53,13 @@
   div.meeting{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    position: relative;
+    position: relative;    
   }
   div.meeting1{
     position: absolute;
     background-color: white;
     color: #145e9b;
-    /* padding: 10px;     */
-    top: 0;
+    top: 10%;
     left: 15%;
     width: 30%;
   }
@@ -62,29 +67,23 @@
     position: absolute;
     background-color: white;
     color: #145e9b;
-    /* padding: 10px; */
-    top: 0;
+    top: 10%;
     right: 15%; 
     width: 30%;
   }
 .images1{  
     margin-top: 210px;
     text-align: center;   
-    white-space: nowrap; 
-  
-      
+    white-space: nowrap;       
   }
   .images1 li{
     display: inline-block;
     max-block-size: 100%;
-    width: 16%;
-  
-    /* margin: 10px 0;     */
+    width: 16%;  
   }
   .images1 li img{  
-    height: 130px;
+    height: 110px;
     width: 230px;
-    /* padding: 5px; */
     max-width: 100%;
   }
   .president{ 
@@ -113,10 +112,9 @@
   .images2 li{
     display: inline-block;
     width: 16%;
-    /* margin: 10px 0;     */
   }
   .images2 li img{  
-    height: 130px;
+    height: 110px;left: 10%;
     width: 230px;
     /* padding: 5px; */
     max-width: 100%;
@@ -135,7 +133,7 @@
     position: relative;
   }
   .ASC1{
-    position: absolute;
+    position: absolute;  
     background-color: white;
     color: #145e9b;
     padding: 10px;    
@@ -162,8 +160,130 @@
       text-align: center;
     font-family: Arial, Helvetica, sans-serif; 
     }
-
- 
-
-
-
+    @media screen and (max-width: 991px) {
+      .banner .since{
+        font-size: 1.1em;
+      }
+      .welcome1{
+        top: 12%;
+        font-size: 1.5em;
+      }
+      .welcome2{
+        top: 22%;
+        font-size: 1.1em;
+      }
+      .since{
+        font-size: 0.9em;
+        top: 41%;
+      }
+      .images1{  
+        margin-top: 235px;      
+      }
+      .images1 li img{  
+        height: 90px;
+        width: 180px;
+      }
+      .images2 li img{  
+        height: 90px;
+        width: 180px;
+      }
+      .ASC{
+        font-size: 0.9em;
+      }
+      }
+      @media screen and (max-width: 767px) {
+      .welcome1{
+        top: 16%;
+        font-size: 1.2em;
+        left: 5%;
+      }
+      .welcome2{
+        top: 25%;
+        font-size: 0.9em;
+        left: 5%;
+      }
+      .since{
+        top: 40%;
+        font-size: 1.1em;
+      }
+      div.meeting1{
+        left: 9%; 
+      }
+      div.meeting2{
+        right: 26%;   
+      }
+      .images1{  
+        margin-top: 285px;      
+      }
+      .images1 li img{  
+        height: 70px;
+        width: 150px;
+      }
+      .images2 li img{  
+        height: 70px;
+        width: 150px;
+      }
+      .ASC{
+        font-size: 0.8em;
+      }
+      }
+      @media screen and (max-width: 597px){
+      .welcome1{
+        top: 16%;
+        font-size: 1em;
+        left: 5%;  
+      } 
+      .welcome2{
+        top: 25%;
+        font-size: 0.7em;
+        left: 5%;         
+      }
+      .banner .since{
+        display: none;
+      }
+      }
+      @media screen and (max-width: 479px) {
+      .welcome1{
+        top: 16%;
+        font-size: 0.9em;
+      }
+      .welcome2{
+        top: 42%;
+        font-size: 0.65em;
+        z-index: 1;
+        left: 5%;
+        color: #145e9b;
+      }
+      .banner .since{
+        display: none;
+      }
+      div.meeting1{
+        font-size: 0.9em;
+        top: 35px;
+        left: 5%;
+      }
+      div.meeting2{
+        font-size: 0.9em;
+        top: 35px;
+        right: 28%; 
+      }
+      .images1{  
+        margin-top: 325px;
+      }
+      .images1 li img{  
+        height: 50px;
+        width: 140px;
+      }
+      .images2 li img{  
+        height: 50px;
+        width: 140px;
+      }
+      .acknowledge img{
+        width: 190px;
+        height: 140px;        
+        margin-left: 30%;        
+      }
+      .ASC{
+        font-size: 0.7em;
+      }
+    }

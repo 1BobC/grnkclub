@@ -23,7 +23,7 @@ console.log(now.toDateString());
 document. -->
 "Complete sketches of four screen widths Complete initial Appearance and postioning  Next format May21 zoom image"
 "Downloaded 12 zoom imgs for amended layout Create president's report Create links and  mouseover for ASC logo positions Move onto responsive design"
-<!--  -->
-
+"Complete layout for max size - laptop screens- Next move on to media query for 900 max screen Check code suitability as media query code amendments progress" 
+"Complete response code for sizes 479  597 767 991 and full-size screens Checked ok Next put online in GreenockSpeakersClub.github.io"
 
 
