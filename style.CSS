@@ -1,6 +1,8 @@
 /*Stylesheet for Greenock Mens Speakers web page*/
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   header{
     position: fixed;
@@ -250,9 +252,8 @@
       .welcome2{
         top: 42%;
         font-size: 0.65em;
-        z-index: 1;
         left: 5%;
-        color: #145e9b;
+        display: none;
       }
       .banner .since{
         display: none;
