@@ -1,0 +1,106 @@
+/*starting at F12 RDM 414 */
+*{
+    box-sizing: border-box;
+}
+@media screen and (max-width: 399px){
+*{display: none;
+}
+}
+@media screen and (min-width: 400px){
+header{
+    background-color: white;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+  header h1{
+    color:  #145e9b;
+    font-size: 1em;
+    font-weight: bold;
+    border: 6px solid #145e9b;
+    padding: 6px 12px;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner img{
+    position: relative;
+    width: 100%;
+    opacity: 0.8;  
+    margin-top: 40px;
+    border-radius: 20px; 
+}
+.welcome1{
+    position: absolute;
+    top: 4.5%;
+    left: 10%;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+  }  
+.welcome2{
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.since{
+    position: absolute;
+    top: 14%;
+    left: 50%;    
+    font-size: 0.8em;
+    font-weight: bold;
+    color: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .meeting{
+    position: relative;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  .meeting1{
+    position: absolute;
+    background-color: white;
+    color: #145e9b;
+    font-size: 0.8em;
+    font-weight: bold;
+    top: 5%;
+    left: 3%;
+    width: 30%;
+  }
+  .meeting2{
+    position: absolute;left: auto;    
+    background-color: white;
+    color: #145e9b;
+    font-size: 0.8em;
+    font-weight: bold;
+    top: 10%;
+    right: 30%; 
+    width: 30%;
+  }
+  .images1{  
+    margin-top: 270px;
+    text-align: center;   
+    white-space: nowrap;  
+    width: 100%;     
+  }
+  .images1 li{
+    display: inline-block;
+    max-block-size: 100%;
+    width: 16%;  
+  }
+  .images1 li img{  
+    height: 90px;
+    width: 180px;
+    max-width: 100%;
+  }
+}
