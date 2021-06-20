@@ -3,7 +3,8 @@
     box-sizing: border-box;
 }
 @media screen and (max-width: 399px){
-*{display: none;
+*{
+  display: none;
 }
 }
 @media screen and (min-width: 400px){
@@ -37,8 +38,9 @@ header{
 }
 .welcome1{
     position: absolute;
-    top: 4.5%;
-    left: 10%;
+    /* top: 5%; */
+    top: 50px;
+    left: 5%;
     font-size: 0.85em;
     font-weight: bold;
     color: ivory;
@@ -46,16 +48,18 @@ header{
   }  
 .welcome2{
     position: absolute;
-    top: 9%;
-    left: 10%;
-    font-size: 0.8em;
+    /* top: 10%; */
+    top: 80px;
+    left: 5%;
+    font-size: 0.75em;
     font-weight: bold;
     color: ivory;
     font-family: Arial, Helvetica, sans-serif; 
 }
 .since{
     position: absolute;
-    top: 14%;
+    /* top: 16%; */
+    top: 125px;
     left: 50%;    
     font-size: 0.8em;
     font-weight: bold;
@@ -84,23 +88,111 @@ header{
     font-size: 0.8em;
     font-weight: bold;
     top: 10%;
-    right: 30%; 
+    right: 35%; 
     width: 30%;
   }
+  
   .images1{  
     margin-top: 270px;
-    text-align: center;   
-    white-space: nowrap;  
-    width: 100%;     
-  }
-  .images1 li{
-    display: inline-block;
-    max-block-size: 100%;
-    width: 16%;  
-  }
-  .images1 li img{  
-    height: 90px;
-    width: 180px;
+     text-align: center;   
+    width: 100%;
     max-width: 100%;
+  }
+  .images1 .column{
+    width: 16%;  
+    float: left;
+    padding: 3px;
+  }
+  .images1 .column img{  
+    height: 45px;
+    width: 90px;
+    max-width: 100%;
+  }
+  /* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.images2{  
+  position: relative;
+  margin-top: 10px;
+   text-align: center;   
+  width: 100%;
+  max-width: 100%;
+}
+.images2 .column{
+  width: 16%;  
+  float: left;
+  padding: 3px;
+}
+.images2 .column img{  
+  height: 45px;
+  width: 90px;
+  max-width: 100%;
+}
+/* Clearfix (clear floats) */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+.president{ 
+  position: relative;
+  color: #145e9b;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+    max-width: 80%;
+    margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.president .address{
+  margin-top: 65px;
+  text-align: left;
+  /* max-width: 80%; */
+  font-weight: bold;
+}
+.acknowledge img{
+  width: 190px;
+  height: 140px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 23%;
+  margin-right: auto;
+  padding: 10px;
+}
+.ASC{
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  font-size: 0.6em;
+}
+.ASC1{
+  position: absolute;  
+  background-color: white;
+  color: #145e9b;
+  padding: 5px;    
+  top: 0;
+  left: 8%;
+  width: 35%;
+}
+.ASC2{
+  position: absolute;
+  background-color: white;
+  color: #145e9b;
+  padding: 5px;
+  top: 0;
+  right: 7%; 
+  width: 35%; 
+}
+footer{
+  background-color: white;
+  color:  #145e9b;
+  padding: 20px;
+  margin-top: 180px; 
+}  
+  footer p{
+    text-align: center;
+  font-family: Arial, Helvetica, sans-serif; 
   }
 }

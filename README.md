@@ -26,4 +26,4 @@ document. -->
 "Complete layout for max size - laptop screens- Next move on to media query for 900 max screen Check code suitability as media query code amendments progress" 
 "Complete response code for sizes 479  597 767 991 and full-size screens Checked ok Next put online in GreenockSpeakersClub.github.io"
 "Aligned grnkclub code with GreenockSpeakersClub code Created styleR file Started coding from min400px screen Reached images code"
-
+"Complete min400px screen OK on f12 Pixel 2 XLAndroid 8.0 411px and f12 402px display none under 400px not tested on git host (yet)"
