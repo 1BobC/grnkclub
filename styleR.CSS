@@ -150,7 +150,6 @@ display: table;
 .president .address{
   margin-top: 65px;
   text-align: left;
-  /* max-width: 80%; */
   font-weight: bold;
 }
 .acknowledge img{
@@ -195,4 +194,141 @@ footer{
     text-align: center;
   font-family: Arial, Helvetica, sans-serif; 
   }
+  }
+  @media screen and (min-width: 550px){
+  .since{  
+    /* top: 16%; */
+    top: 180px;   
+    font-size: 0.9em;
+  }
+  .welcome2{ 
+    top: 100px;
+    font-size: 0.75em;
+  }
+  .welcome1{
+    font-size: 0.95em; 
+  }  
+  .meeting1{  
+    left: 5%;  
+  }
+  .meeting2{   
+    right: 28%;     
+  } 
+  .images1{  
+    margin-top: 250px;
+  }
+  .acknowledge img{
+    margin-left: 30%;
+  } 
+  }
+  @media screen and (min-width: 720px){
+  .since{  
+    /* top: 16%; */
+    top: 220px;   
+  } 
+  .welcome2{ 
+    top: 100px;
+    font-size: 0.9em;
+  }
+  .welcome1{
+    top: 40px;
+    font-size: 1.2em; 
+  } 
+  .meeting1{  
+    left: 10%;  
+  }
+  .meeting2{   
+    right: 20%;     
+  } 
+  .images1{  
+    margin-top: 230px;
+  }
+  .images1 .column img{  
+    height: 65px;
+    width: 110px;
+    max-width: 100%;
+  }
+  .president .address{
+    margin-top: 85px;
+  }
+  .images2 .column img{  
+    height: 65px;
+    width: 110px;
+    max-width: 100%;
+  }
+  .acknowledge img{
+    margin-left: 35%;
+  } 
+  .ASC{
+    font-size: 0.75em;
+  }  
+  }
+  @media screen and (min-width: 900px){
+  .since{  
+    /* top: 16%; */
+    top: 290px;   
+    font-size: 1.1em;
+  }
+  .welcome2{ 
+    top: 100px;
+    font-size: 1.1em;
+  }
+  .welcome1{
+    font-size: 1.3em; 
+  } 
+  .meeting2{   
+    right: 15%;     
+  } 
+  .images1{  
+    margin-top: 200px;
+  }
+  .images1 .column img{  
+    height: 90px;
+    width: 180px;
+  }
+  .president .address{
+    margin-top: 120px;
+  }
+  .images2 .column img{  
+    height: 90px;
+    width: 180px;
+  }
+  .ASC{
+    font-size: 0.8em;
+  }
+  }   
+  @media screen and (min-width: 1000px){
+  .since{  
+    /* top: 16%; */
+    top: 310px;   
+    font-size: 1.1em;
+  }
+  .meeting1{  
+    left: 18%;  
+  }
+  .acknowledge img{
+    margin-left: 40%;
+  } 
+  .ASC{
+    font-size: 0.8em;
+  }
+  .ASC1{
+    left: 12%;
+  }
+  .ASC2{
+    right: 4%; 
+  }
+  }
+@media screen and (min-width: 1200px){
+  .images1 .column img{  
+    height: 115px;
+    width: 195px;
+  }
+  .images2 .column img{  
+    height: 115px;
+    width: 195px;
+  }
 }
+
+
+
