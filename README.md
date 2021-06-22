@@ -29,3 +29,4 @@ document. -->
 "Complete min400px screen OK on f12 Pixel 2 XLAndroid 8.0 411px and f12 402px display none under 400px not tested on git host (yet)"
 "Completed coding styleR for screens min 400px 550px 720px 900px 1000px 1200px Test again then transfer code to git provider"
 "Complete addition of meeting format information Now ready to transfer code to GreenockSpeakersClub code in git online provider"
+"Added mailto link to Alastair and Malcom emails"
